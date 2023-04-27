@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spartiate Fitness</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512">
+</head>
+<body>
+	<header>
+  <div class="logo">
+    <a href="Acceuil.html"><img src="image/spartiate fitness.png" alt="Spartiate Fitness"></a>
+  </div>
+ <nav>
+    <ul class="menu">
+      <li><a href="Acceuil.html">Accueil</a></li>
+      <li><a href="A PROPOS.html">À propos</a></li>
+      <li class="submenu">
+        <a href="Nos Cours.html">Cours</a>
+        <ul>
+          <li><a href="#">Base HIIT</a></li>
+          <li><a href="#">Base Strength</a></li>
+          <li><a href="#">Base Endurance</a></li>
+        </ul>
+      </li>
+      <li><a href="Abonnement.html">Abonnement</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="header-right">
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</header>
+	
+	<main>
+		<section>
+			<h1>À propos de Spartiate Fitness</h1>
+			<p>Spartiate Fitness est une salle de sport moderne et conviviale située au cœur de la ville. Nous sommes spécialisés dans l'entraînement de haute intensité et nous offrons une grande variété de cours collectifs et d'équipements de pointe pour vous aider à atteindre vos objectifs de fitness.</p>
+			
+			<h2>Nos valeurs</h2>
+			<ul>
+				<li>Passion pour la santé et le bien-être</li>
+				<li>Esprit d'équipe et entraide</li>
+				<li>Respect de soi et des autres</li>
+			</ul>
+			
+			<h2>Nos entraîneurs</h2>
+			<p>Nos entraîneurs sont tous des professionnels qualifiés et passionnés par leur métier. Ils sont là pour vous guider et vous motiver à chaque séance, en adaptant leur coaching à vos besoins et à vos objectifs.</p>
+			
+			<h2>Nos installations</h2>
+			<p>Notre salle de sport est équipée des dernières technologies en matière d'appareils de musculation et de cardio-training, ainsi que d'une salle de cours collectifs et d'un espace dédié aux étirements et à la récupération.</p>
+			
+			<h2>Nos programmes</h2>
+			<p>Nous proposons une grande variété de programmes pour répondre aux besoins de chacun : musculation, cardio-training, HIIT, yoga, Pilates, danse fitness, etc. Nos programmes sont adaptés à tous les niveaux, que vous soyez débutant ou confirmé.</p>
+			
+			<h2>Nos tarifs</h2>
+			<p>Nous offrons des tarifs attractifs pour vous permettre de profiter de nos installations et de nos programmes en toute liberté. Nous proposons également des abonnements avec des avantages exclusifs, ainsi que des séances d'essai gratuites pour vous aider à faire le meilleur choix.</p>
+		</section>
+	</main>
+	 <section id="reseaux-sociaux">
+      <h2 class="section-title">Suis-nous @spartiatefitness</h2>
+      <ul class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </ul>
+      <div class="contact-info">
+    <div class="address">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Ouakam Cité Avion, Dakar, Sénégal</span>
+    </div>
+    <div class="phone">
+      <i class="fas fa-phone-alt"></i>
+      <span>+221 77 275 74 34</span>
+    </div>
+    <div class="coach">
+      <i class="fas fa-user"></i>
+      <span>Coach Principal: ELENGA ADOUA Franck</span>
+    </div>
+  </div>
+</section>
+
+	
+	<footer>
+		<p>Copyright © Spartiate Fitness 
+		<br>Tous droits réservés</p>
+	</footer>
+</body>
+</html>
+
+
+<style type="text/css">
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  color: #fff;
+}
+
+.logo {
+  margin-right: 100px;
+}
+
+.logo img {
+  max-height: 100px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.submenu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.submenu:hover ul {
+  display: block;
+}
+
+.submenu li {
+  width: 100%;
+  text-align: center;
+}
+
+.submenu a {
+  border-bottom: none;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+/* Style général du corps */
+body {
+      background-image: url("image/salle-de-sport-paris.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+section {
+  background-color:black;
+  color:white;
+  padding:40PX;
+  margin-bottom:40PX;
+  opacity:0.6;
+
+
+}
+
+h1, h2, p {
+  margin-top: 10
+}
+
+#reseaux-sociaux {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+
+}
+
+.social-icons a {
+  color: white;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 0PX;
+  font-size: 20PX;
+  opacity:0.6;
+
+}
+</style>
+
+

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spartiate Fitness</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512">
+</head>
+<body>
+  <!-- HEADER -->
+ <header>
+  <div class="logo">
+    <a href="Acceuil.html"><img src="image/spartiate fitness.png" alt="Spartiate Fitness"></a>
+  </div>
+ <nav>
+    <ul class="menu">
+      <li><a href="Acceuil.html">Accueil</a></li>
+      <li><a href="A PROPOS.html">À propos</a></li>
+      <li class="submenu">
+        <a href="Nos Cours.html">Cours</a>
+        <ul>
+          <li><a href="#">Base HIIT</a></li>
+          <li><a href="#">Base Strength</a></li>
+          <li><a href="#">Base Endurance</a></li>
+        </ul>
+      </li>
+      <li><a href="Abonnement.html">Abonnement</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="header-right">
+      <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="abonnement-mensuel">
+    <h1>Abonnement mensuel</h1>
+    <ul>
+      <li>Accès illimité à toutes les installations</li>
+      <li>Accès illimité à tous les cours collectifs</li>
+      <li>Prix : 50€ par mois</li>
+    </ul>
+  </section>
+  
+  <section class="abonnement-annuel">
+    <h1>Abonnement annuel</h1>
+    <ul>
+      <li>Accès illimité à toutes les installations</li>
+      <li>Accès illimité à tous les cours collectifs</li>
+      <li>Prix : 500€ par an</li>
+      <li>Avantages supplémentaires : une séance de massage gratuite, une réduction de 10% sur tous les produits de la boutique Spartiate Fitness</li>
+    </ul>
+  </section>
+  
+  <section class="abonnement-famille">
+    <h1>Abonnement famille</h1>
+    <ul>
+      <li>Accès illimité à toutes les installations pour toute la famille (maximum 4 personnes)</li>
+      <li>Accès illimité à tous les cours collectifs</li>
+      <li>Prix : 80€ par mois</li>
+    </ul>
+  </section>
+  
+  <section class="abonnement-etudiant">
+    <h1>Abonnement étudiant</h1>
+    <ul>
+      <li>Accès illimité à toutes les installations</li>
+      <li>Accès illimité à tous les cours collectifs</li>
+      <li>Prix : 30€ par mois (sur présentation d'une carte étudiante valide)</li>
+    </ul>
+  </section>
+</main>
+ <section id="reseaux-sociaux">
+      <h2 class="section-title">Suis-nous @spartiatefitness</h2>
+      <ul class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </ul>
+      <div class="contact-info">
+    <div class="address">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Ouakam Cité Avion, Dakar, Sénégal</span>
+    </div>
+    <div class="phone">
+      <i class="fas fa-phone-alt"></i>
+      <span>+221 77 275 74 34</span>
+    </div>
+    <div class="coach">
+      <i class="fas fa-user"></i>
+      <span>Coach Principal: ELENGA ADOUA Franck</span>
+    </div>
+  </div>
+</section>
+<footer>
+    <p>Copyright © Spartiate Fitness 
+    <br>Tous droits réservés</p>
+  </footer>
+</html>
+ 
+<STYLE>
+  /* Style général de l'en-tête */
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  color: #fff;
+}
+.logo {
+  margin-right: 100px;
+}
+
+.logo img {
+  max-height: 100px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.submenu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.submenu:hover ul {
+  display: block;
+}
+
+.submenu li {
+  width: 100%;
+  text-align: center;
+}
+
+.submenu a {
+  border-bottom: none;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.login:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.social-icons i {
+  font-size: 20px;
+}
+body {
+      background-image: url("image/salle-de-sport-paris.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+
+section {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+    opacity: 0.7;
+  }
+ 
+  
+  h1 {
+    margin-top: 0;
+  }
+  #reseaux-sociaux {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+
+}
+
+.social-icons a {
+  color: white;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+  </style>
